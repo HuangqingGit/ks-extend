@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Audit data",
+    "description": "用于快速统计审核员实时审核数据",
+    "version": "1.0.0",
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "./assets/img/128.png",
+            "32": "./assets/img/128.png",
+            "48": "./assets/img/128.png",
+            "128": "./assets/img/128.png"
+        }
+    },
+    "icons": {
+        "16": "./assets/img/128.png",
+        "32": "./assets/img/128.png",
+        "48": "./assets/img/128.png",
+        "128": "./assets/img/128.png"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
